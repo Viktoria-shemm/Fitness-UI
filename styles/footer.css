@@ -61,14 +61,12 @@
 }
 
 .footer__column-button {
-  position: absolute;
-  top: 0;
-  right: 0;
   height: 100%;
   aspect-ratio: 1;
-  background: url(../svg/Frame.svg) center/70% no-repeat;
-  border: var(--border);
-  border-radius: 50%;
+  background: url(../svg/button-arrow.svg) center/contain no-repeat;
+  position: absolute;
+  right: 0;
+  border: none;
 }
 
 .footer__column-button:hover {
