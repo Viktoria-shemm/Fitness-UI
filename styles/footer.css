@@ -67,15 +67,16 @@
   position: absolute;
   right: 0;
   border: none;
+  border-radius: 50%;
 }
 
 .footer__column-button:hover {
   background-color: var(--color-light-gray);
 }
 
-/* .footer__column-input {
+.footer__column-input {
   padding-right: 70px;
-} */
+}
 
 .footer__column-soc1als-list {
   display: flex;
