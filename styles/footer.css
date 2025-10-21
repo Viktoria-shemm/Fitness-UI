@@ -67,8 +67,9 @@
   height: 100%;
   aspect-ratio: 1;
   background: url(../svg/button-arrow.svg) center/contain no-repeat;
-  border: 0.5px;
+  border: 0.5px solid var(--color-light); /* укажите тип границы */
   border-radius: 50%;
+  z-index: 1; /* добавим z-index */
 }
 
 .footer__column-button:hover {

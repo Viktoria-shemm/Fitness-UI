@@ -40,39 +40,40 @@
   line-height: 2;
   border: none;
   background-color: var(--color-light);
+  color: var(--color-dark);
 }
 
 .header__actions {
-    display: flex;
-    column-gap: 39px;
+  display: flex;
+  column-gap: 39px;
 }
 
 .header__logo {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .header__burger-button {
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border: var(--border);
-    border-radius: 50%;;
-    justify-content: center;
-    display: inline-flex;
-    flex-direction: column;
-    row-gap: 4px;
-    padding-left: 8px;
-    color: var(--color-light);
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: var(--border);
+  border-radius: 50%;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 4px;
+  padding-left: 8px;
+  color: var(--color-light);
 }
 
 .header__burger-button-line {
-    width: 6px;
-    height: 1px;
-    background-color: currentColor;
-    box-shadow: 16px 0 0 0 currentColor;
+  width: 6px;
+  height: 1px;
+  background-color: currentColor;
+  box-shadow: 16px 0 0 0 currentColor;
 }
 
 .header__burger-button:hover {
-    color: var(--color-light-gray);
-    border-color: currentColor;
+  color: var(--color-light-gray);
+  border-color: currentColor;
 }

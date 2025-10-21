@@ -110,11 +110,6 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* Firefox */
-input[type="number"] {
-  -moz-appearance: textfield;
-}
-
 .visually-hidden {
   position: absolute !important;
   width: 1px !important;
