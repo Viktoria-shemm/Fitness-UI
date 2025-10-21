@@ -55,8 +55,11 @@
   margin-left: 0.4em;
 }
 
-.footer__column-subscribe {
+.footer__column-wrapper {
   position: relative;
+}
+
+.footer__column-subscribe {
   margin-bottom: 3.13em;
 }
 
