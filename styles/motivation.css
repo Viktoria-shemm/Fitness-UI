@@ -1,0 +1,35 @@
+.motivation__item:nth-child(even) {
+  background-color: var(--color-dark-alternate);
+}
+
+.motivation__item:nth-child(even) .motivation__card {
+  flex-direction: row-reverse;
+}
+
+.motivation__card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: clamp(30px, 10.42vw, 200px);
+}
+
+.motivation__card-img {
+  margin-block: -60px;
+}
+
+.motivation__card-body {
+  padding-left: 35px;
+}
+
+.motivation__card-description {
+  max-width: 400px;
+  font-size: clamp(14px, 0.01vw, 16px);
+  font-weight: 300;
+  line-height: 1.75;
+  margin-bottom: 2.3em;
+  color: var(--color-light-gray);
+}
+
+.motivation__card-title:not(:last-child) {
+  margin-bottom: 0.35em;
+}

@@ -1,0 +1,28 @@
+.training-types {
+  padding-top: 70px;
+  padding-bottom: 120px;
+  position: relative;
+  background-color: var(--color-dark);
+}
+
+.training-types__list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 60px;
+}
+
+.training-types__item {
+  --trainingTypesItemBgIconSize: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  background: url(../svg/training-types/arrow.svg) 100% 0/var(--trainingTypesItemBgIconSize) no-repeat;
+  padding-top: var(--trainingTypesItemBgIconSize);
+}
+
+.training-types__title {
+  font-size: 16px;
+  line-height: 1.75;
+  white-space: nowrap;
+}

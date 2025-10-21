@@ -1,0 +1,24 @@
+<svg viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.000000" height="54.000000" fill="none" customFrame="url(#clipPath_0)">
+	<defs>
+		<clipPath id="clipPath_0">
+			<rect width="54.000000" height="54.000000" x="0.000000" y="0.000000" rx="27.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+		<clipPath id="clipPath_1">
+			<rect width="19.265688" height="26.765642" x="0.000000" y="0.000000" fill="rgb(255,255,255)" transform="matrix(-0.707107,-0.707107,0.707107,-0.707107,24.3406,43.2667)" />
+		</clipPath>
+		<clipPath id="clipPath_2">
+			<rect width="19.265682" height="26.765636" x="0.000000" y="0.000000" fill="rgb(255,255,255)" transform="matrix(-0.707107,-0.707107,0.707107,-0.707107,24.3406,43.2667)" />
+		</clipPath>
+	</defs>
+	<rect id="span.qodef-m-arrow" width="53.000000" height="53.000000" x="0.500000" y="0.500000" rx="26.500000" stroke="rgb(255,255,255)" stroke-width="1" />
+	<g id="svg.qodef-svg--button-arrow" clip-path="url(#clipPath_1)" customFrame="url(#clipPath_1)">
+		<rect id="svg.qodef-svg--button-arrow" width="19.265688" height="26.765642" x="0.000000" y="0.000000" transform="matrix(-0.707107,-0.707107,0.707107,-0.707107,24.3406,43.2667)" />
+		<g id="Frame" customFrame="url(#clipPath_2)">
+			<rect id="Frame" width="19.265682" height="26.765636" x="0.000000" y="0.000000" transform="matrix(-0.707107,-0.707107,0.707107,-0.707107,24.3406,43.2667)" />
+			<g id="Group">
+				<path id="Vector" d="M0 0L26.2481 0" stroke="rgb(255,255,255)" stroke-width="0.999746144" transform="matrix(0.707107,-0.707107,0.707107,0.707107,17.4619,36.3882)" />
+				<path id="Vector" d="M13.1226 13.1226L0 13.1226L0 0" fill-rule="nonzero" stroke="rgb(255,255,255)" stroke-width="0.999746144" transform="matrix(-1,0.000111942,0.000111942,-1,35.9536,31.1506)" />
+			</g>
+		</g>
+	</g>
+</svg>

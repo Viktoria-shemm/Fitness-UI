@@ -1,0 +1,219 @@
+@media (max-width: 1919px) {
+  .motivation__card-img {
+    margin-block: -25px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .motivation__card-img {
+    max-width: 30%;
+  }
+
+  .motivation__card {
+    padding-inline: 40px;
+  }
+
+  .calculate__form-body {
+    grid-template-columns: 1fr;
+  }
+
+  .calculate {
+    padding-inline: 55px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .training-types__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    row-gap: 10px;
+    padding-inline: 15px;
+  }
+
+  .header__menu {
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  .header__list {
+    justify-content: center;
+  }
+
+  .header__link {
+    height: 50px;
+  }
+
+  .banner {
+    padding-inline: 15px;
+    row-gap: 10px;
+  }
+
+  .motivation__card-description {
+    max-width: 300px;
+  }
+
+  .button.transparent {
+    height: 40px;
+    padding-left: 35px;
+    padding-right: 60px;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .join-us__body {
+    padding-bottom: 80px;
+  }
+
+  .family__img {
+    height: 360px;
+  }
+
+  .calculate {
+    padding-block: 100px;
+  }
+
+  .calculate__table-wrapper::before {
+    display: none;
+  }
+
+  .calculate__inner {
+    flex-direction: column;
+    gap: 60px 0;
+  }
+
+  .footer__main {
+    padding-block: 80px;
+  }
+
+  .footer__header {
+    grid-template-columns: 1fr;
+    gap: 30px 0;
+  }
+
+  .footer__body {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner__info::before {
+    margin-right: 10px;
+  }
+
+  .banner__info {
+    margin-bottom: 5px;
+  }
+
+  .motivation__card-img {
+    margin-block: 10px;
+  }
+
+  .training-types__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .training-types__item {
+    --trainingTypesItemBgIconSize: 50px;
+    row-gap: 10px;
+  }
+
+  .join-us__form-body {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .family__img {
+    height: 180px;
+  }
+
+  .family__header {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .family__body {
+    column-gap: 12px;
+  }
+}
+
+@media (max-width: 590px) {
+  .motivation__card-img {
+    margin-block: 35px;
+  }
+
+  .footer__body {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__description {
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    row-gap: 20px;
+  }
+
+  .header__logo {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+
+  .header__actions {
+    justify-content: center;
+    flex-basis: 100%;
+  }
+
+  .header__list {
+    column-gap: 20px;
+  }
+
+  .banner__button::after {
+    width: 8px;
+    height: 8px;
+  }
+
+  .motivation__card-img {
+    margin-block: 20px;
+  }
+
+  .motivation__card,
+  .motivation__item:nth-child(even) .motivation__card {
+    flex-direction: column-reverse;
+  }
+
+  .motivation__card-img {
+    max-width: 60%;
+  }
+
+  .button.transparent {
+    margin-bottom: 15px;
+  }
+
+  .join-us__video-play-button {
+    border: none;
+  }
+
+  .join-us__title::after {
+    display: none;
+  }
+
+  .family__title {
+    white-space: wrap;
+    width: 250px;
+  }
+}
